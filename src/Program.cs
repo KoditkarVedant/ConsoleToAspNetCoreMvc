@@ -7,7 +7,10 @@ namespace ConsoleToAspNetCoreMvc
     {
         static void Main(string[] args)
         {
-            var host = new WebHostBuilder();
+            var host = new WebHostBuilder()
+                .UseKestrel();
+
+            host.Start();
         }
     }
 }
