@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Hosting;
 
-namespace ConsoleToAspNetCoreMvc
+namespace src
 {
     class Program
     {
