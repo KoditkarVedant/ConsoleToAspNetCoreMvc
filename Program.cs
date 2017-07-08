@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.AspNetCore.Hosting;
 
 namespace ConsoleToAspNetCoreMvc
 {
@@ -6,7 +7,7 @@ namespace ConsoleToAspNetCoreMvc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var host = new WebHostBuilder();
         }
     }
 }
